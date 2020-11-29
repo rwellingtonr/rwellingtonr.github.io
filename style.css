@@ -10,7 +10,11 @@ body, html {
 }
 h1{
   font-size: 3rem;
-  color: #948037;  
+  color: #948037; 
+  text-transform: uppercase;
+}
+.animate__animated.animate__fadeIn{
+  --animation-duration: 2s;
 }
 .buffer{
   height: 8rem;
