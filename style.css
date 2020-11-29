@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://c4.wallpaperflare.com/wallpaper/840/366/443/laptop-apple-inc-pens-macbook-wallpaper-preview.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  color: #948037;  
+}
+.buffer{
+  height: 8rem;
+}
+hr{
+  border-color: #928f68;
+  border-width: 3px;
+  max-width: 80px;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-secondary {
+  background-color: #A49D43;
+  border-color: #A49D43;
+}
+.btn-secondary:hover{
+  background-color: #706C2E;
+  border-color:#706C2E;
+  border-width: 4px;
+}
+.btn-xl{
+  padding: 1rem 2rem;
+}
